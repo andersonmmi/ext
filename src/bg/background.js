@@ -25,7 +25,7 @@ if (provider) {
   //   method: 'eth_chainId'
   // })
 
-  console.log("provider should equal window.ethereum: ", provider)
+  console.log("What address is connected? ", provider)
 } else {
 
   // if the provider is not detected, detectEthereumProvider resolves to null
