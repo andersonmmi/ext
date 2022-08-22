@@ -11,7 +11,8 @@
   },
   "default_locale": "en",
   "background": {
-    "service_worker": "src/bg/background.js" 
+    "service_worker": "src/bg/background.js",
+    "type": "module"
   },
   "options_page": "src/options_custom/index.html",
   "action": {
